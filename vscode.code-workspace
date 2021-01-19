@@ -5,19 +5,13 @@
 		}
 	],
 	"settings": {
-		"editor.formatOnSave": false,
+		"editor.formatOnSave": true,
 		"editor.tabSize": 2,
 		"files.exclude": {
+			"docs": true,
 			"node_modules": true
 		},
 		"vetur.validation.template": false,
-		"vetur.format.defaultFormatterOptions": {
-			"prettyhtml": {
-				"singleQuote": false,
-				"wrapAttributes": false,
-				"sortAttributes": true,
-			}
-		},
 		"editor.codeActionsOnSave": {
 			"source.fixAll.eslint": true
 		},
@@ -26,8 +20,5 @@
 			"javascript",
 			"typescript"
 		],
-		"[vue]": {
-			"editor.defaultFormatter": "octref.vetur"
-		}
 	}
 }
